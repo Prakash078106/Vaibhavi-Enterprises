@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vaibhavi Enterprises</title>
+
+<style>
+body { margin:0; font-family: Arial; }
+
+
+/* Header */
+header {
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* Nav */
+nav {
+    background:#34495e;
+    padding:10px;
+    text-align:center;
+}
+nav a {
+    color:white;
+    margin:15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* Hero */
+.hero {
+  
+    background:url('https://images.unsplash.com/photo-1503387762-592deb58ef4e');
+    background-size:cover;
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+}
+.hero h1 { font-size:40px; }
+
+/* Sections */
+section { padding:40px; text-align:center; }
+
+.services { background:#f4f4f4; }
+
+.box {
+    display:inline-block;
+    width:250px;
+    margin:15px;
+    padding:20px;
+    background:white;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Contact */
+.contact { background:#ecf0f1; }
+
+/* Button */
+.btn {
+    padding:10px 20px;
+    background:#e67e22;
+    border:none;
+    color:white;
+    cursor:pointer;
+}
+
+/* WhatsApp */
+.whatsapp {
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px;
+    border-radius:50%;
+    text-decoration:none;
+}
+</style>
+
+<script>
+function contactNow() {
+    let message = "Hello Vaibhavi Enterprises! I need construction/repair service.";
+    window.open("https://wa.me/918355942675?text=" + message, "_blank");
+}
+</script>
+
+</head>
+
+<body>
+
+<header>
+<h1>Vaibhavi Enterprises</h1>
+<p>House Construction & Repair Experts</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+<h1>Building Your Dream Home</h1>
+<p>Quality Construction & Reliable Repair Work</p>
+<button class="btn" onclick="contactNow()">Contact Now</button>
+</div>
+
+<section>
+<h2>About Us</h2>
+<p>We provide professional house construction and repair services with quality work and trusted experience in Thane.</p>
+</section>
+
+<section id="services" class="services">
+<h2>Our Services</h2>
+
+<div class="box">
+<h3>House Construction</h3>
+<p>Complete building solutions</p>
+</div>
+
+<div class="box">
+<h3>Home Repair</h3>
+<p>All types of repair work</p>
+</div>
+
+<div class="box">
+<h3>Plumbing</h3>
+<p>Water system solutions</p>
+</div>
+
+<div class="box">
+<h3>Electrical Work</h3>
+<p>Safe electrical services</p>
+</div>
+
+<div class="box">
+<h3>Painting</h3>
+<p>Interior & exterior painting</p>
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact Us</h2>
+<h3>Prakash Bhosale</h3>
+<p>📞 8355942675</p>
+<p>📞 9168234077</p>
+<p>📍 Thane, Maharashtra</p>
+
+</section>
+
+<a class="whatsapp" href="https://wa.me/918355942675">
+<img scr="swami.jpg" class="corner-photo">
+💬</a>
+
+<footer style="background:#2c3e50;color:white;text-align:center;padding:10px;">
+<p>© 2026 Vaibhavi Enterprises</p>
+</footer>
+
+</body>
+</html>
